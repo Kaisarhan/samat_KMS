@@ -1,0 +1,39 @@
+Win_8.1_PRO
+slmgr.vbs -ipk GCRJD-8NW9H-F2CDX-CCM8D-9D6T9
+
+
+Win2016Std
+slmgr.vbs -ipk WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
+
+Win10-11PRO
+slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+
+slmgr /skms kms.itsolution.kz
+slmgr /ato
+
+
+
+
+====================================
+Windows
+slmgr.vbs -upk
+slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+slmgr.vbs -skms DOCKER_IP
+slmgr.vbs -ato
+slmgr.vbs -dlv
+
+Office x86
+cd \Program Files (x86)\Microsoft Office\Office16
+cscript ospp.vbs /sethst:DOCKER_IP
+cscript ospp.vbs /inpkey:xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatusall
+
+
+Office x86_64
+cd \Program Files\Microsoft Office\Office16
+cscript ospp.vbs /sethst:kms.itsolution.kz
+cscript ospp.vbs /inpkey:X6TC7-TVK7L-BUJWS-L0XI6-56ERT
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatusall

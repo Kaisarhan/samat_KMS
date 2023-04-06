@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>KMS Instruction command</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+              Инструкций
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">KMS for all Microsoft production</h5><br>
+              <p class="card-text">
+                <strong>Win_8.1_PRO</strong> <br>
+slmgr.vbs -ipk GCRJD-8NW9H-F2CDX-CCM8D-9D6T9b <br> <br>
+<strong>Win2016Std</strong> <br>
+slmgr.vbs -ipk WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY <br> <br>
+
+<strong>Win10-11PRO</strong> <br>
+slmgr.vbs -ipk W269N-WFGWX-YVC9B-4J6C9-T83GX <br><br>
+
+
+slmgr /skms kms.itsolution.kz <br>
+slmgr /ato <br>
+<br>
+<br>
+<br>
+==================================== <br>
+<strong>Windows</strong><br>
+slmgr.vbs -upk <br>
+slmgr.vbs -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX <br>
+slmgr.vbs -skms DOCKER_IP <br>
+slmgr.vbs -ato <br>
+slmgr.vbs -dlv <br> <br>
+
+<strong>Office x86</strong> <br>
+cd \Program Files (x86)\Microsoft Office\Office16 <br>
+cscript ospp.vbs /sethst:DOCKER_IP <br>
+cscript ospp.vbs /inpkey:xxxxx-xxxxx-xxxxx-xxxxx-xxxxx <br>
+cscript ospp.vbs /act <br>
+cscript ospp.vbs /dstatusall <br> <br>
+
+
+<strong>Office x86_64</strong> <br>
+cd \Program Files\Microsoft Office\Office16 <br>
+cscript ospp.vbs /sethst:kms.itsolution.kz <br>
+cscript ospp.vbs /inpkey:X6TC7-TVK7L-BUJWS-L0XI6-56ERT <br>
+cscript ospp.vbs /act <br>
+cscript ospp.vbs /dstatusall <br>
+              </p>
+              <a href="/files/KMS.txt" download="" class="btn btn-primary">Download .txt file</a>
+            </div>
+          </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
